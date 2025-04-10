@@ -1,0 +1,13 @@
+{
+    "name": "Pelapor",
+    "alias": "pelapor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pelapor\\Providers\\PelaporServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
