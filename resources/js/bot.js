@@ -7,7 +7,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '', // isi sesuai
-    database: 'core' // ganti dengan nama DB kamu
+    database: 'lapor_poliwangi' // ganti dengan nama DB kamu
 });
 
 const client = new Client({

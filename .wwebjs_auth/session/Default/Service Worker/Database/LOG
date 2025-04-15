@@ -1,3 +1,2 @@
-2025/04/08-09:31:42.585 19c0 Reusing MANIFEST D:\aplikasi\laravel-master\.wwebjs_auth\session\Default\Service Worker\Database/MANIFEST-000001
-2025/04/08-09:31:42.586 19c0 Recovering log #3
-2025/04/08-09:31:42.586 19c0 Reusing old log D:\aplikasi\laravel-master\.wwebjs_auth\session\Default\Service Worker\Database/000003.log 
+2025/04/15-15:24:21.666 2bc8 Creating DB C:\Users\ACER NITRO 5\Downloads\laravel-master\.wwebjs_auth\session\Default\Service Worker\Database since it was missing.
+2025/04/15-15:24:21.673 2bc8 Reusing MANIFEST C:\Users\ACER NITRO 5\Downloads\laravel-master\.wwebjs_auth\session\Default\Service Worker\Database/MANIFEST-000001
