@@ -1,0 +1,13 @@
+{
+    "name": "UnitPoliwangi",
+    "alias": "unitpoliwangi",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\UnitPoliwangi\\Providers\\UnitPoliwangiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
