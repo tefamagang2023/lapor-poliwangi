@@ -29,7 +29,7 @@ Route::group(['prefix' => 'admin'], function() {
     Route::post('/reply/{id}', 'AdminController@balas')->name('reply');
     Route::get('/pesan-keluar-pelapor', 'AdminController@pesan_keluar');
     // Route::post('/{id}/update', 'AdminController@teruskanLaporan')->name('teruskan_laporan');
-    Route::get('/pesan-masuk-unit', 'AdminController@pesan_masuk_unit');
-    Route::get('/send-whatsapp/{complaint_id}', 'AdminController@sendwa')->name('send.wa');
-    Route::get('/pesan-keluar-unit', 'AdminController@pesan_keluar_unit');
+    // Route::get('/pesan-masuk-unit', 'AdminController@pesan_masuk_unit');
+    // Route::get('/send-whatsapp/{complaint_id}', 'AdminController@sendwa')->name('send.wa');
+    // Route::get('/pesan-keluar-unit', 'AdminController@pesan_keluar_unit');
 });
