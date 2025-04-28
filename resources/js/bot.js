@@ -449,10 +449,8 @@ setInterval(() => {
 
 
 // Jalankan server
-const PORT = 3000;  // Mendefinisikan port yang digunakan oleh server
+const PORT = 3000;
 app.listen(PORT, () => {
-    // Menjalankan server Express pada port yang telah ditentukan
     console.log(`🌐 API WhatsApp aktif di http://localhost:${PORT}`);
 });
-
 
