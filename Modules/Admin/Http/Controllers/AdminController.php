@@ -157,6 +157,11 @@ class AdminController extends Controller
 
         // Ambil nomor WhatsApp dari unit
         $nomor = $laporan->unit->nomor;
+        // Jika nomor unit tidak ada, kembalikan pesan error
+        if (!$nomor) {
+            return back()->with('error', 'Nomor unit tidak ditemukan');
+            }
+
         $pesan =   "Halo, terdapat laporan dari : 
                     nama pelapor : {$laporan->nama_pelapor}
                     nomor pelapor : {$laporan->nomor_pelapor}
